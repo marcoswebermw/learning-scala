@@ -26,5 +26,6 @@ Estudando a linguagem Scala.
 [Playlist no Youtube](https://www.youtube.com/playlist?list=PLAIXw9RKLY_1bBn_u-i_qjmRpZw2ogeKV)  
 [Docker Image](https://hub.docker.com/r/hseeberger/scala-sbt/dockerfile)  
 [Docker Image com SBT](https://hub.docker.com/r/ysihaoy/scala/)  
+[Twitter Scala School](https://twitter.github.io/scala_school/)  
 
 
