@@ -24,5 +24,7 @@ Estudando a linguagem Scala.
 [Configurando o SBT](https://www.scala-sbt.org/1.x/docs/index.html)  
 [Tutorial Docs](https://docs.scala-lang.org/tour/tour-of-scala.html)
 [Playlist no Youtube](https://www.youtube.com/playlist?list=PLAIXw9RKLY_1bBn_u-i_qjmRpZw2ogeKV)  
+[Docker Image](https://hub.docker.com/r/hseeberger/scala-sbt/dockerfile)  
+[Docker Image com SBT](https://hub.docker.com/r/ysihaoy/scala/)  
 
 
