@@ -8,7 +8,7 @@ Estudando a linguagem Scala.
 * É orientada a objetos e funcional.  
 * POO - Todo valor nela é um objeto.  
 * Funcional - Toda função é um valor.  
-* É estaticamente tipada.  
+* É estaticamente tipada. Também, possui inferência de tipos.  
 * Scala roda na JVM. Portanto, é necessário ter o Runtime(JRE) do Java instalado(kit JDK/OpenJDK >= 8).  
 * É compatível com o Java.  
 * SBT(Scala’s build tool) - É uma ferramenta usada para compilar, rodar, testar, etc projetos em Scala.  
