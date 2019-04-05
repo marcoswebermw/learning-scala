@@ -88,3 +88,46 @@ println(a.x)  // 110   -  Getter implíto.
 println(a.y)  // Scala -  Getter implíto.
 ```  
 
+# Executando Código  
+
+É possível extender a classe `App` que permite executarmos algum código de forma mais rápida, sem precisar criar um método main. É uma alternativa boa para fazer testes.  
+
+O `object` em Scala `é uma classe`, que ao mesmo tempo, é o `próprio objeto`. É um `Singleton` da sua própria classe. O `object` funciona como uma mistura do `final` e `static` do Java. São instâncias das suas próprias definições.  
+
+```scala
+object Teste extends App{
+  println("Olá Mundo")
+}
+```  
+
+* Usando `object` para executar uma classe
+
+```scala
+class MinhaClasse(){
+    val PI = 3.14
+}
+
+object Teste extends App{
+    val minhaClasse = new MinhaClasse
+    println(minhaClasse.PI)
+}
+
+// No terminal digite:
+// scala nome-do-arquivo.scala
+```  
+
+* Executando uma classe no terminal
+
+```scala
+class MinhaClass{  
+  def imprimirPI() : Unit = { // Unit equivale como o retorno void do Java.
+    println(3.14)
+  }
+}
+
+val mc = new MinhaClasse
+mc.imprimirPI()
+
+// No terminal digite:
+// scala nome-do-arquivo.scala
+```
