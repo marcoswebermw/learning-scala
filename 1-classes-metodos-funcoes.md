@@ -6,6 +6,7 @@
 - O mínimo para se criar uma classe é colocar a declaração `class MinhaClasse`;  
 - A JVM exite que para ser executado, um código deve ter um método main com um array de strings;  
 - Uma classe é instanciada com a declaração da claúsula `new NomeDaClasse`;  
+- Por padrão uma classe sempre é pública;  
 
 
 ## Exemplos de Classe  
@@ -20,5 +21,26 @@ class MinhaClasse
 
 ```scala
 class MinhaClasse(x:Int, y:String)
+```  
+
+* Classe com bloco:  
+
+```scala
+class MinhaClasse{
+}
+```  
+
+
+* Instânciando uma classe:  
+
+```scala
+class MinhaClasse{
+}
+
+val x = new MinhaClasse
+
+println(x.toString)
+println(x.getClass)
+println(x.hashCode)
 ```  
 
