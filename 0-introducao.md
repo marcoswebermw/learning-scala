@@ -49,3 +49,17 @@ println(linguagem2) // Java
 println("A linguagem " + linguagem1 + " não é uma extensão do " + linguagem2)  
 // A linguagem Scala não é uma extensão do Java
 ```  
+
+## Blocos  
+
+O uso de blocos não é necessário quando nossas expressões tem apenas uma linha.  
+Mais do que isso temos que usar as chaves `{ }`.   
+Pode ser usado também para organizar código mesmo não precisando.  
+São usados em classes, métodos, funções, etc.  
+
+```scala
+{
+  var x = 1
+  val y : Int = 2
+}
+```  
